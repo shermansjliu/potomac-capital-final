@@ -1,0 +1,58 @@
+   
+/*Navbar*/
+nav{
+    display: inline;
+    transition: background 0.3s;
+}
+     .nav-link{
+        letter-spacing: 2px;
+        font-size: 0.8em;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color:white;
+        font-weight: bold;
+        transition: color 0.2s;
+    }
+.nav-item a:hover{
+    transition: color 0.2s;
+    color:gray !important;
+}
+
+.nav-item.special a:hover{
+    transition: color 0.2s;
+    color: #0c45a0!important;
+}
+
+#logo{
+        font-style: italic;
+        font-family: 'EB Garamond', serif;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+
+/*use if image logo is used
+#logo{
+    margin-top:10px;
+    height:30px;
+}
+*/
+
+.active{
+    color: #0c45a0;
+}
+.nav-active{
+    background-color: white;
+    transition: all 0.5s;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .navbar li{
+      margin-right: auto;
+    }   
+}
+
+

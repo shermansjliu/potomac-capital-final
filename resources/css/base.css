@@ -1,0 +1,38 @@
+/*page Layout*/
+
+p{
+    font-size: 14px;
+    color: black;
+}
+
+    h2{
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+#about-us-img{
+    height:300px;
+}
+
+#footer{
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    background:white;
+    font-size: .7em;
+    border-top: 1px lightgray solid;
+
+}
+#footer div:first-child{
+    text-align: center;
+    
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+
+
+
+        
+ 

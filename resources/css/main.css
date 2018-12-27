@@ -1,0 +1,159 @@
+/*home page layout*/
+
+.row{
+    text-align: center;      
+}
+    .row h1{
+        margin-top:10%;
+        font-size: 5em;
+        margin-bottom: 10px;
+        font-style: italic;
+        font-family: 'EB Garamond', serif;
+        letter-spacing: 1px;
+    }
+    .row a{
+        text-decoration: none; 
+        color: white;
+        font-weight: 300;
+        transition: background 150ms;
+        padding:12px 40px 12px 40px;
+        border: 1px solid rgba(255,255,255,1);
+        border-radius: 40px;
+        background: transparent;
+        transition: border-width 200ms;
+        }
+    .row a:hover{
+        background: rgba(255,255,255,0.5);
+        border-color: rgba(255,255,255,0.5);
+        transition: border-color 0.2s;
+        
+        
+    }
+    main p{
+        margin-bottom: 30px;
+        color: white;
+        font-weight: 600;
+        font-size: .75em;
+        letter-spacing: 2px;
+        font-family: 'Julius Sans One', sans-serif;   
+    }
+p span{
+    border-left: 1px solid white;
+}
+    span{
+        padding:.4em 10px;
+    }
+
+#background{
+    background: linear-gradient(
+      rgba(0, 0, 45, 0.6), 
+      rgba(0, 0, 45, 0.6)
+    ), url('../images/hk-bg.jpg') ;
+    background-size: cover;
+    height:800px;
+    color: white;
+}
+
+#about p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.content{
+    padding: 100px 0 100px 0;
+}
+
+
+#about img{
+    height:200px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+
+#about p{
+    font-size: 1em;
+    margin-top:20px;
+}
+
+#about img{
+    height:100px;
+}
+#about a{
+    color:black;
+}
+#contact{
+    text-align: center;
+    flex: 1 0 auto;
+}
+.flex-column{
+    width:400px;
+    text-align: center;
+}
+
+.d-flex img{
+    margin: 0 30px 0 30px;
+}
+
+hr{
+    width:50px;
+    height:2px;
+}
+
+.hr-black{
+    background-color: black;
+}
+
+.hr-white{
+    background-color:white;
+}
+
+#meet-team{
+    background:#0c45a0;
+}
+    #meet-team img{
+    transition: opacity 500ms; 
+    opacity: 1;
+    }
+
+    #meet-team img:hover{
+    opacity: 0.7;
+    }
+
+    #meet-team{
+    color:white;
+    }
+
+@media
+.new-button{
+    color:black;
+    overflow: hidden;
+}
+
+.modal-header{
+    border:none;
+}
+
+.description{
+    height:175px;
+    overflow: hidden;
+}
+
+.modal-body img{
+    border: black 1px solid;
+}
+
+.modal-body p {
+    font-size: 0.75em;
+}
+
+.modal-content{
+    height:300px;
+}
+
+#careers-bg{
+       background:  url('../images/man-in-suit.jpg') ;
+    background-size: cover;
+    height:500px;
+    color: white;
+}
+
