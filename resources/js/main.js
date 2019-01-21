@@ -2,6 +2,7 @@
 $(function(){
     var scroll = new SmoothScroll('a[href*="#"]', {
 
+
 	// Selectors
 	ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
 	header: null, // Selector for fixed headers (must be a valid CSS selector)
@@ -12,7 +13,7 @@ $(function(){
 	clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
 
 	easing: 'easeInOutQuint', // Easing pattern to use
-	
+
 
 	// History
 	updateURL: true, // Update the URL on scroll
@@ -39,7 +40,7 @@ $( '.new-button').click(function() {
             $('#navbarNav a').css('color','black')
             $('.nav-item').addClass('special');
             $('#logo').css('color','gray')
-            
+
         }else if($(this).scrollTop() < 50){
             $('#nav-override').removeClass('nav-active')
             $('#navbarNav a').css('color','white')
@@ -60,6 +61,5 @@ function switchImg(image){
     var newSource = image.data('alt-src');
     image.data('alt-src',originalSource);
     image.attr('src', newSource);
-    
-}
 
+}
