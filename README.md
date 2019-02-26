@@ -2,7 +2,9 @@
 www.potomaccapitalltd.com
 
 ### Skills used
-HTML, CSS, Javascript
+HTML
+CSS
+Javascript
 
 ### Frameworks used
 Jquery
